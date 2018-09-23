@@ -1,0 +1,226 @@
+
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url('TengwarAnnatar-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url('TengwarAnnatar-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url('TengwarAnnatar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url('TengwarAnnatar-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AnironC';
+    src: url('AnironC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('Aniron.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('Aniron-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AnironC';
+    src: url('AnironC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+
+    font-family: 'Aniron';
+
+}
+
+.orange {
+
+    color: #ff6600
+}
+
+.bg-orange{
+    background-color:#ff6600;
+    color: white;
+}
+
+/* mise en forme de la nav barre */
+
+
+li {
+    display: inline;
+    margin-left:10px;
+    font-family: 'AnironC';
+
+}
+
+li:hover 
+{ text-decoration: underline; color: #ff6600; }
+
+
+/* caroussel */
+
+.vador {
+
+    height: 80%;
+}
+
+.carousel-caption h2
+{
+font-size: 5vw;
+margin-bottom: 2%;
+}
+
+
+.carousel-caption p
+{
+font-size: 3vw;
+margin-bottom: 6%;
+
+}
+
+/* mise en forme de la première section */
+
+.symboles {
+
+    font-family: 'Tengwar Annatar';
+  
+}
+
+a.bouton_fellow
+{
+    color: #ff6600;
+    font-family: 'AnironC';
+
+
+}
+
+
+
+
+/* mise en forme des vignettes mort */
+.gandalf { 
+    opacity: 0.7;
+}
+
+h3.dead {
+    display: none;
+
+}
+
+
+.over:hover h3.dead {
+    display: initial
+}
+
+.over:hover h5.p-2 {
+	display: none;
+}
+
+.over:hover .gimli {
+
+    text-decoration: line-through;
+} 
+
+.over:hover .gandalf{
+    opacity: 1;
+}
+
+
+
+h5.p-2 {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+hr {
+    width: 75%; 
+    color: black;
+    opacity: 1;
+}
+
+/* partie reward */
+hr .orange {
+
+    color: #ff6600;
+}
+
+.white {
+
+    color: white;
+    background-color: black;
+}
+
+.black {
+
+color: black;
+background-color: white;
+
+}
+.coin {
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+/*best hunter */
+.best.hunter {
+    background-color: white;
+
+}
+
+.profilfb {
+    text-decoration-color: black
+    text-decoration: underline;
+}
+
+.mb-0.orange {
+    background-color: black;
+    display:inline-block;
+}
+
+/*ring capabilities */
+
+.gollum {
+
+    position: absolute;
+    top: 20 px;
+    left: 800px;
+}
+
+/*formulaire */
+
+.map {
+    width: 60%;
+}

@@ -1,0 +1,10 @@
+
+.zone-image:hover .zone_texte .text_reward{
+	display: none;
+}
+
+.zone-image:hover .zone_texte .text_gandalf{
+	margin-top: 450px;
+	font-size: 1em;
+	justify-content: center;
+}
