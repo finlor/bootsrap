@@ -67,7 +67,7 @@ body {
 
 .orange {
 
-    color: #ff6600
+    color: #ff6600;
 }
 
 .bg-orange{
@@ -131,6 +131,7 @@ a.bouton_fellow
 
 /* mise en forme des vignettes mort */
 .gandalf { 
+    
     opacity: 0.7;
 }
 
@@ -142,15 +143,18 @@ h3.dead {
 
 .over:hover h3.dead {
     display: initial
+
 }
 
 .over:hover h5.p-2 {
-	display: none;
+    display: none;
+
 }
 
 .over:hover .gimli {
 
     text-decoration: line-through;
+
 } 
 
 .over:hover .gandalf{
@@ -201,7 +205,7 @@ background-color: white;
 }
 
 .profilfb {
-    text-decoration-color: black
+    text-decoration-color: black;
     text-decoration: underline;
 }
 
